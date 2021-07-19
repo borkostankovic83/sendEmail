@@ -1,2 +1,2 @@
 # sendEmail
-Send Email with Spring
+Send Email with Spring using username and password
