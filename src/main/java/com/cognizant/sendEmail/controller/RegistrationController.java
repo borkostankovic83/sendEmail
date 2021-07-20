@@ -29,7 +29,9 @@ public class RegistrationController {
          * Creating a User with the help of User class that we have declared and setting
          * Email address of the sender.
          */
-        user.setEmailAddress("Your @email.com");  //Receiver's email address
+        user.setFirstName("Borko");
+        user.setLastName("Stankovic");
+        user.setEmailAddress("Borko.Stankovic@email.com");  //Receiver's email address
         /*
          * Here we will call sendEmail() for Sending mail to the sender.
          */
@@ -53,7 +55,9 @@ public class RegistrationController {
          * Creating a User with the help of User class that we have declared and setting
          * Email address of the sender.
          */
-        user.setEmailAddress("Your @email.com"); //Receiver's email address
+        user.setFirstName("Borko");
+        user.setLastName("Stankovic");
+        user.setEmailAddress("Borko.Stankovic@email.com");  //Receiver's email address
 
         /*
          * Here we will call sendEmailWithAttachment() for Sending mail to the sender

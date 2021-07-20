@@ -74,7 +74,7 @@ public class MailService {
         helper.setSubject("Testing Mail API with Attachment");
         helper.setText("Please find the attached document below.");
 
-        ClassPathResource classPathResource = new ClassPathResource("Attachment.pdf");
+        ClassPathResource classPathResource = new ClassPathResource("Borko Stankovic Developer.pptx");
         helper.addAttachment(classPathResource.getFilename(), classPathResource);
 
         javaMailSender.send(mimeMessage);
